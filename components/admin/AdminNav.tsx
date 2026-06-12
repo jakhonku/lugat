@@ -28,7 +28,7 @@ export function AdminNav({ email }: { email: string }) {
       <div className="container flex h-16 items-center gap-4">
         <Link href="/admin" className="flex items-center gap-2 font-extrabold">
           <span className="text-2xl">📚</span>
-          <span className="hidden sm:inline">Lug&apos;atcha admin</span>
+          <span className="hidden sm:inline">Culturelex admin</span>
         </Link>
 
         <nav className="ml-2 flex items-center gap-1 overflow-x-auto">

@@ -1,4 +1,4 @@
-// Lug'atcha uchun PWA ikonkalarini hosil qiladi (192, 512 va apple-touch).
+// Culturelex uchun PWA ikonkalarini hosil qiladi (192, 512 va apple-touch).
 // Tashqi kutubxonasiz — sof Node (zlib) bilan PNG yoziladi.
 // Ishlatish: npm run icons
 import { deflateSync } from "node:zlib";
@@ -102,7 +102,7 @@ function fillCircle(c, cx, cy, r, color) {
       if ((x - cx) ** 2 + (y - cy) ** 2 <= r * r) setPx(c, x, y, color);
 }
 
-// Lug'atcha palitrasi
+// Culturelex palitrasi
 const CORAL = [250, 128, 76, 255];
 const MINT = [45, 212, 191, 255];
 const YELLOW = [250, 204, 21, 255];

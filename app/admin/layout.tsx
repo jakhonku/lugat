@@ -3,7 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { AdminNav } from "@/components/admin/AdminNav";
 
 export const metadata: Metadata = {
-  title: "Admin — Lug'atcha",
+  title: "Admin — Culturelex",
 };
 
 export const dynamic = "force-dynamic";

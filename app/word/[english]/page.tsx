@@ -15,9 +15,9 @@ export async function generateMetadata({
   params: { english: string };
 }): Promise<Metadata> {
   const word = await getWordBySlug(unslugifyWord(params.english));
-  if (!word) return { title: "So'z topilmadi — Lug'atcha" };
+  if (!word) return { title: "So'z topilmadi — Culturelex" };
   return {
-    title: `${word.english} — ${word.uzbek} | Lug'atcha`,
+    title: `${word.english} — ${word.uzbek} | Culturelex`,
     description: `${word.english} (${word.transcription ?? ""}) o'zbekcha: ${word.uzbek}.`,
   };
 }

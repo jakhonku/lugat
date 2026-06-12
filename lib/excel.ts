@@ -94,7 +94,7 @@ export function exportWordsToXlsx(words: Word[], filenameSuffix = "") {
   const date = new Date().toISOString().slice(0, 10);
   const suffix = filenameSuffix ? `-${filenameSuffix}` : "";
   const out = XLSX.write(wb, { type: "array", bookType: "xlsx" });
-  downloadBlob(new Uint8Array(out), `lugatcha-words-${date}${suffix}.xlsx`);
+  downloadBlob(new Uint8Array(out), `culturelex-words-${date}${suffix}.xlsx`);
 }
 
 /** Download a 3-row sample template so admins know the expected columns. */
@@ -133,5 +133,5 @@ export function downloadTemplate() {
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "namuna");
   const out = XLSX.write(wb, { type: "array", bookType: "xlsx" });
-  downloadBlob(new Uint8Array(out), "lugatcha-namuna.xlsx");
+  downloadBlob(new Uint8Array(out), "culturelex-namuna.xlsx");
 }

@@ -1,5 +1,5 @@
 -- =============================================================
--- Lug'atcha — boshlang'ich migration
+-- Culturelex — boshlang'ich migration
 -- Supabase SQL Editor'da to'liq ishga tushiring.
 -- =============================================================
 

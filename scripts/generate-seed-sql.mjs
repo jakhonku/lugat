@@ -20,7 +20,7 @@ const rows = words
   .join(",\n");
 
 const sql = `-- =============================================================
--- Lug'atcha — boshlang'ich so'zlar (${words.length} ta)
+-- Culturelex — boshlang'ich so'zlar (${words.length} ta)
 -- 0001_init.sql dan KEYIN ishga tushiring.
 -- Qayta ishga tushirsangiz, avval shu so'zlarni o'chirib, qaytadan qo'shadi.
 -- =============================================================

@@ -1,7 +1,7 @@
-// Lug'atcha — service worker
+// Culturelex — service worker
 // App shell + so'nggi qidiruv natijalarini keshlaydi, oflayn ishlashga imkon beradi.
 
-const CACHE = "lugatcha-v1";
+const CACHE = "culturelex-v1";
 const APP_SHELL = [
   "/",
   "/offline",

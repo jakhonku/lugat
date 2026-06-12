@@ -19,7 +19,7 @@ export default async function HomePage() {
         {/* Hero */}
         <header className="text-center">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl">
-            Lug&apos;atcha{" "}
+            Culturelex{" "}
             <span className="inline-block animate-pop-in">
               <Emoji emoji="📚" />
             </span>
@@ -39,7 +39,7 @@ export default async function HomePage() {
 
         {/* Pastki taglik */}
         <footer className="mt-16 pb-4 text-center text-sm text-muted-foreground">
-          <p>Lug&apos;atcha — bolalar uchun inglizcha-o&apos;zbekcha lug&apos;at 💛</p>
+          <p>Culturelex — bolalar uchun inglizcha-o&apos;zbekcha lug&apos;at 💛</p>
         </footer>
       </div>
 

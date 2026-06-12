@@ -38,7 +38,7 @@ export default async function AdminDashboard() {
         <div>
           <h1 className="text-3xl font-extrabold">Boshqaruv paneli 👋</h1>
           <p className="text-muted-foreground">
-            Lug&apos;atcha so&apos;zlar bazasini boshqaring.
+            Culturelex so&apos;zlar bazasini boshqaring.
           </p>
         </div>
         <div className="flex gap-2">

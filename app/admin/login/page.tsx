@@ -44,7 +44,7 @@ export default function AdminLoginPage() {
           <div className="text-5xl">🔐</div>
           <h1 className="mt-3 text-2xl font-extrabold">Admin paneli</h1>
           <p className="mt-1 text-sm text-muted-foreground">
-            Lug&apos;atcha boshqaruv paneliga kiring
+            Culturelex boshqaruv paneliga kiring
           </p>
         </div>
 

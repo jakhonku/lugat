@@ -9,7 +9,7 @@ interface BeforeInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: "accepted" | "dismissed" }>;
 }
 
-const DISMISS_KEY = "lugatcha-install-dismissed";
+const DISMISS_KEY = "culturelex-install-dismissed";
 
 export function InstallPrompt() {
   const [deferred, setDeferred] = useState<BeforeInstallPromptEvent | null>(null);
@@ -62,7 +62,7 @@ export function InstallPrompt() {
               📚
             </div>
             <div className="min-w-0 flex-1">
-              <p className="font-extrabold leading-tight">Lug'atcha'ni o'rnating</p>
+              <p className="font-extrabold leading-tight">Culturelex'ni o'rnating</p>
               <p className="text-sm text-muted-foreground">
                 Telefoningizga ilova qilib qo'shing!
               </p>

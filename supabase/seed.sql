@@ -1,5 +1,5 @@
 -- =============================================================
--- Lug'atcha — boshlang'ich so'zlar (106 ta)
+-- Culturelex — boshlang'ich so'zlar (106 ta)
 -- 0001_init.sql dan KEYIN ishga tushiring.
 -- Qayta ishga tushirsangiz, avval shu so'zlarni o'chirib, qaytadan qo'shadi.
 -- =============================================================

@@ -12,15 +12,15 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Lug'atcha 📚 — Inglizcha-O'zbekcha lug'at",
+  title: "Culturelex 📚 — Inglizcha-O'zbekcha lug'at",
   description:
     "Bolalar uchun quvnoq inglizcha-o'zbekcha lug'at. Inglizcha so'zlarni o'yin tarzida o'rganamiz!",
   manifest: "/manifest.json",
-  applicationName: "Lug'atcha",
+  applicationName: "Culturelex",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Lug'atcha",
+    title: "Culturelex",
   },
   icons: {
     icon: "/favicon.ico",

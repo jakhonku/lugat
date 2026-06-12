@@ -1,4 +1,4 @@
-# Lug'atcha 📚
+# Culturelex 📚
 
 Bolalar uchun inglizcha–o'zbekcha lug'at (PWA). Next.js 14 (App Router) + Supabase.
 
