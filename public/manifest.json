@@ -1,0 +1,27 @@
+{
+  "name": "Lug'atcha — Inglizcha-O'zbekcha lug'at",
+  "short_name": "Lug'atcha",
+  "description": "Bolalar uchun inglizcha so'zlarni o'rganadigan quvnoq lug'at.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF8E7",
+  "theme_color": "#FA804C",
+  "lang": "uz",
+  "categories": ["education", "kids"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

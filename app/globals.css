@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Cheerful kids palette */
+    --background: 45 100% 96%; /* warm yellow tint */
+    --foreground: 240 25% 22%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 25% 22%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 25% 22%;
+
+    --primary: 18 95% 60%; /* coral / orange */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 168 76% 55%; /* mint / teal */
+    --secondary-foreground: 200 50% 15%;
+
+    --accent: 48 96% 60%; /* sunny yellow */
+    --accent-foreground: 30 50% 20%;
+
+    --purple: 270 80% 65%; /* purple highlight */
+    --purple-foreground: 0 0% 100%;
+
+    --muted: 45 50% 92%;
+    --muted-foreground: 240 12% 45%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 40% 86%;
+    --input: 40 40% 86%;
+    --ring: 18 95% 60%;
+
+    --radius: 1.25rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-image:
+      radial-gradient(circle at 12% 18%, hsl(48 96% 80% / 0.55) 0, transparent 38%),
+      radial-gradient(circle at 88% 12%, hsl(168 76% 75% / 0.5) 0, transparent 36%),
+      radial-gradient(circle at 78% 88%, hsl(270 80% 85% / 0.45) 0, transparent 40%);
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  /* Hide browser default clear button on search inputs */
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  /* Hide scrollbar for category chip rows */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
