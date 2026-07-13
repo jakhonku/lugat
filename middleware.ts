@@ -7,7 +7,7 @@ import { updateSession } from "@/lib/supabase/middleware";
 // │  0 = sayt OCHIQ (odatdagidek ishlaydi)                       │
 // │  Faqat shu raqamni o'zgartiring:                             │
 // └─────────────────────────────────────────────────────────────┘
-const MAINTENANCE = 0;
+const MAINTENANCE: number = 1;
 
 const MAINTENANCE_HTML = `<!doctype html>
 <html lang="en">
